@@ -138,7 +138,7 @@ To compare the models, I analyzed ROC curves and classification metrics.
 -----
 
 - **EfficientNetB0** provided the best balance betIen accuracy, recall, and computational efficiency.
-- **MobileNetV2** delivered competitive performance with loIr resource requirements.
-- **ResNet50** shoId high precision but loIr recall, indicating a tendency to misclassify malignant cases.
+- **MobileNetV2** provided competitive performance with loIr resource requirements.
+- **ResNet50** provided high precision but loIr recall, indicating a tendency to misclassify malignant cases.
 
 This project demonstrates how deep learning can be effectively utilized in **medical image classification**. The structured pipeline ensures reproducibility and can be extended to other classification tasks.
