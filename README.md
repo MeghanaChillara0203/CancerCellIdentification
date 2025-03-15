@@ -40,8 +40,9 @@ To replicate results, run the Jupyter notebooks in the order provided.
 <img src="results/Train_test/sample_test.png" width="600"/>
 
 ## Model Training & Evaluation
------
+
 ### **Baseline Model**
+-----
 The baseline CNN was trained as a reference.
 
 - **Training Progress**
@@ -63,8 +64,10 @@ The baseline CNN was trained as a reference.
 ### **Transfer Learning Models**
 
 I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance improvement.
------
+
 #### **EfficientNet**
+-----
+
 - **Training Progress**
   
   <img src="results/Train_test/EfficientNet_epoch.png" width="600"/>
@@ -81,8 +84,10 @@ I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance impro
   
   <img src="results/Train_test/EfficientNet_true_vs_predicted.png" width="600"/>
 
------
+
 #### **MobileNet**
+-----
+
 - **Training Progress**
   
   <img src="results/Train_test/MobileNet_epoch.png" width="600"/>
@@ -99,8 +104,10 @@ I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance impro
   
   <img src="results/Train_test/MobileNet_true_vs_predicted.png" width="600"/>
 
------
+
 #### **ResNet**
+-----
+
 - **Training Progress**
   
   <img src="results/Train_test/ResNet_epoch.png" width="600"/>
@@ -117,8 +124,10 @@ I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance impro
   
   <img src="results/Train_test/ResNet_true_vs_predicted.png" width="600"/>
 
------
+
 ### **Model Comparison**
+-----
+
 To compare the models, I analyzed ROC curves and classification metrics.
 
 - **ROC Curve**
@@ -126,6 +135,7 @@ To compare the models, I analyzed ROC curves and classification metrics.
   <img src="results/Train_test/ROC_ModelComparision.png" width="600"/>
 
 ## Conclusion
+-----
 
 - **EfficientNetB0** provided the best balance betIen accuracy, recall, and computational efficiency.
 - **MobileNetV2** delivered competitive performance with loIr resource requirements.
