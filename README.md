@@ -28,12 +28,15 @@ To replicate results, run the Jupyter notebooks in the order provided.
 ## Dataset Sample Visualizations
 
 ### **Training Data Samples**
+
 <img src="results/Train_test/sample_train.png" width="600"/>
 
 ### **Validation Data Samples**
+
 <img src="results/Train_test/sample_validation.png" width="600"/>
 
 ### **Test Data Samples**
+
 <img src="results/Train_test/sample_test.png" width="600"/>
 
 ## Model Training & Evaluation
@@ -42,15 +45,19 @@ To replicate results, run the Jupyter notebooks in the order provided.
 The baseline CNN was trained as a reference.
 
 - **Training Progress**
+  
   <img src="results/Train_test/basemodel_epoch.png" width="600"/>
 
 - **Classification Report**
+  
   <img src="results/Train_test/basemodel_precision_recall.png" width="600"/>
 
 - **Confusion Matrix**
+  
   <img src="results/Train_test/basemodel_confusion_matrix.png" width="600"/>
 
 - **Sample Predictions**
+  
   <img src="results/Train_test/basemodel_true_vs_predicted.png" width="600"/>
 
 ### **Transfer Learning Models**
@@ -59,47 +66,60 @@ I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance impro
 
 #### **EfficientNet**
 - **Training Progress**
+  
   <img src="results/Train_test/EfficientNet_epoch.png" width="600"/>
 
 - **Classification Report**
+  
   <img src="results/Train_test/efficientNet_precision_recall.png" width="600"/>
 
 - **Confusion Matrix**
+  
   <img src="results/Train_test/EfficientNet_confusion_matrix.png" width="600"/>
 
 - **Sample Predictions**
+  
   <img src="results/Train_test/EfficientNet_true_vs_predicted.png" width="600"/>
 
 #### **MobileNet**
 - **Training Progress**
+  
   <img src="results/Train_test/MobileNet_epoch.png" width="600"/>
 
 - **Classification Report**
+  
   <img src="results/Train_test/MobileNet_precision_recall.png" width="600"/>
 
 - **Confusion Matrix**
+  
   <img src="results/Train_test/MobileNet_confusion_matrix.png" width="600"/>
 
 - **Sample Predictions**
+  
   <img src="results/Train_test/MobileNet_true_vs_predicted.png" width="600"/>
 
 #### **ResNet**
 - **Training Progress**
+  
   <img src="results/Train_test/ResNet_epoch.png" width="600"/>
 
 - **Classification Report**
+  
   <img src="results/Train_test/ResNet_precision_recall.png" width="600"/>
 
 - **Confusion Matrix**
+  
   <img src="results/Train_test/ResNet_confusion_matrix.png" width="600"/>
 
 - **Sample Predictions**
+  
   <img src="results/Train_test/ResNet_true_vs_predicted.png" width="600"/>
 
 ### **Model Comparison**
 To compare the models, I analyzed ROC curves and classification metrics.
 
 - **ROC Curve**
+  
   <img src="results/Train_test/ROC_ModelComparision.png" width="600"/>
 
 ## 5. Conclusion
