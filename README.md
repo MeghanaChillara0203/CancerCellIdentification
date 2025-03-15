@@ -61,7 +61,7 @@ The baseline CNN was trained as a reference.
   
   <img src="results/Train_test/basemodel_true_vs_predicted.png" width="600"/>
 
-### **Transfer Learning Models**
+## **Transfer Learning Models**
 
 I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance improvement.
 
@@ -122,7 +122,7 @@ I fine-tuned **EfficientNetB0, MobileNetV2, and ResNet50** for performance impro
 
 - **Sample Predictions**
   
-  <img src="results/Train_test/ResNet_true_vs_predicted.png" width="600"/>
+  <img src="results/Train_test/resNet_true_vs_predicted.png" width="600"/>
 
 
 ### **Model Comparison**
